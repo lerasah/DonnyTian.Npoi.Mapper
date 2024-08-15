@@ -35,7 +35,7 @@ jobs:
           # BUILD_PLATFORM: x64
 
           # NuGet package id, used for version detection & defaults to project name
-          PACKAGE_NAME: Npoi.Mapper.Updated
+          PACKAGE_NAME: Synced.Npoi.Mapper
 
           # Filepath with version info, relative to root of repository & defaults to PROJECT_FILE_PATH
           # VERSION_FILE_PATH: Directory.Build.props
@@ -61,9 +61,3 @@ jobs:
 
           # Flag to toggle pushing symbols along with nuget package to the server, disabled by default
           INCLUDE_SYMBOLS: true
-          
-      - name: Upload artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: nupkg-file
-          path: '/home/runner/work/DonnyTian.Npoi.Mapper/DonnyTian.Npoi.Mapper/Npoi.Mapper.Updated.6.2.1.1.nupkg'
