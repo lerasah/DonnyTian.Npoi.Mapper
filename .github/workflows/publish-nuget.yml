@@ -66,4 +66,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: nupkg-file
-          path: DonnyTian.Npoi.Mapper/DonnyTian.Npoi.Mapper/Npoi.Mapper.Updated.6.2.1.1.nupkg
+          path: '/home/runner/work/DonnyTian.Npoi.Mapper/DonnyTian.Npoi.Mapper/Npoi.Mapper.Updated.6.2.1.1.nupkg'
