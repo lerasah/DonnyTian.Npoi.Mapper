@@ -4,7 +4,7 @@
     <Description>Convention-based mapper between strong typed object and Excel data via NPOI.</Description>
     <Authors>Donny Tian</Authors>
     <AssemblyName>Npoi.Mapper</AssemblyName>
-    <PackageId>Npoi.Mapper</PackageId>
+    <PackageId>Npoi.Mapper.Updated</PackageId>
     <PackageTags>Excel;XLS;XLSX;NPOI;object mapping;dynamic object mapping</PackageTags>
     <PackageProjectUrl>https://donnytian.github.io/Npoi.Mapper/</PackageProjectUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
